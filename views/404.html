@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <title>Error 404: File Not Found</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <style type="text/css">
+		body {
+			background-color: red;
+			transition: background-color 0.2s;
+		}
+	</style>
+  <script type="text/javascript">
+		var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+		var i = 1;
+
+		window.setInterval(function(){
+			document.body.style.backgroundColor = colors[i];
+			i++;
+			if (i === colors.length){
+				i=0;
+			}
+		}, 100);
+	</script>
+  <body>
+    <main><h4 style="color: black; font-size: 40px; font-family: Verdana">
+      We're sorry, the page you requested is not located on the server.
+      </h4>
+      <center><img style="width: 400px; border: 0" src="https://a00.nook.land/assets/img/404-cat-1-133b2d10af05f3146edd4535e9d3a48ec140e1c0736e9d12c88816401c0711ea.png"/></center></main>
+  </body>
+</html>
